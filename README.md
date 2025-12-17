@@ -80,3 +80,7 @@ Pashaei, E., Liu, S., Li, K.Y., Zang, Y., Yang, L., Lautenschlaeger, T., Huang, 
 
 https://academic.oup.com/nar/article/53/13/gkaf609/8192812
 
+## DiCE R package
+
+https://github.com/Wanbioinfo/DiCE_package
+
