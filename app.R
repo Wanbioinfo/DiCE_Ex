@@ -396,24 +396,30 @@ ui <- function(request) {
       padding: 6px 20px;
       background-color: #003a5d;
       color: #ffffff;
-      font-size: 0.85em;
+      font-size: 0.9em;
     ",
       div(
         style = "text-align: center; line-height: 1.4;",
         span("@ Wan Lab, Indiana University School of Medicine · 2025"),
         tags$br(),
-        span("This website is free and open to all users and there is no login requirement.",
-             style = "font-size:0.8em;"),
+        span(
+          "This website is free and open to all users and there is no login requirement.",
+          style = "font-size:1.1em;"
+        ),
         span("  ·  "),
-        a("Lab Website",
+        a(
+          "Lab Website",
           href   = "https://wanbioinfo.github.io/Lab/",
           target = "_blank",
-          style  = "font-size:0.8em; color:#ffffff; text-decoration:underline;"),
+          style  = "font-size:0.9em; color:#ffffff; text-decoration:underline;"
+        ),
         span("  ·  "),
-        a("License",
+        a(
+          "License",
           href   = "https://opensource.org/licenses/MIT",
           target = "_blank",
-          style  = "font-size:0.8em; color:#ffffff; text-decoration:underline;")
+          style  = "font-size:0.9em; color:#ffffff; text-decoration:underline;"
+        )
       )
     )
   )
