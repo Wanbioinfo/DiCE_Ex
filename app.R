@@ -10,13 +10,10 @@ library(readr)
 library(readxl)
 #library(DiCE)
 library(future)
-<<<<<<< HEAD
-plan(multisession,workers=2)
-options(future.globals.maxSize=4*1024^3)
-=======
+
 plan(multisession, workers = 1)
 options(future.globals.maxSize = 8 * 1024^3)  # adjust if needed
->>>>>>> ed2c8fa1c625254acad6edadfcabb5bc5497e2e5
+
 library(DT)
 library(promises)
 library(htmltools)
